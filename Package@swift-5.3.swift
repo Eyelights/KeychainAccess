@@ -12,7 +12,7 @@ import PackageDescription
 let package = Package(
     name: "KeychainAccess",
     platforms: [
-        .macOS(.v10_10), .iOS(.v9), .tvOS(.v9), .watchOS(.v2)
+        .iOS(.v11),
     ],
     products: [
         .library(name: "KeychainAccess", targets: ["KeychainAccess"])
